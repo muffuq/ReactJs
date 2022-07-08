@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Montserrat:wght@300&family=Oswald:wght@500&display=swap');
+
+*{
+  background-image: radial-gradient(circle, #0066ff, #0086ff, #00a0ff, #00b7ff, #00caf4);
+  user-select: none;
+}
+
+.Baslik{
+  color: rgb(0, 0, 0);
+  top: 1em;
+  position: relative;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+s
+.numbermain{
+  position: relative;
+  color: rgb(0, 0, 0);
+  width: 100px;
+  height: 100px;
+  top: 4em;
+  left: 23.3em;
+}
+
+nav {
+  text-align: center;
+  position: relative;
+  align-items: center;
+  background-color: aqua;
+  width: auto;
+  height: auto;
+  top: -9em;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 1em;
+  font-size: 25px;
+  background: none;
+  background-color: transparent;
+  transition: 0.4s;
+}
+
+nav a:hover{
+  color: white;
+}
+
+.sicaklikana{
+  position: relative;
+  left: 27em;
+  color: rgb(0, 0, 0);
+  top: 8em;
+  width: 200px;
+  z-index: 2;
+  background: none;
+  background-color: transparent;
+}
+
+.celciusbt{
+  position: relative;
+  top: 5em;
+  z-index: 1;
+  margin-left: 3.3em;
+  left: 44em;
+}
+
+.textemp{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  position: relative;
+  top: 8em;
+}
